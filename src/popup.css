@@ -1,0 +1,36 @@
+body {
+    margin: 5px;
+    background-color: #344966;
+    color: #F6F3F6;
+}
+
+#topdiv {
+    width: 200px;
+    height: 30px;
+}
+
+#title {
+    margin: 5px;
+    margin-top: 2px;
+    float: left;
+    white-space: nowrap;
+    display: inline;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+}
+
+#settingsImg {
+    margin: 5px;
+    color: #F6F3F6;
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+.rotate {
+    animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+}
