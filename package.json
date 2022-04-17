@@ -1,0 +1,23 @@
+{
+  "name": "web-embargo",
+  "version": "1.0.0",
+  "description": "Chrome extension to blacklist specific websites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-sass": "cd src && sass -w scss:styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solunian/web-embargo.git"
+  },
+  "author": "Daniel Cui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/solunian/web-embargo/issues"
+  },
+  "homepage": "https://github.com/solunian/web-embargo#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
