@@ -15,5 +15,5 @@ Meant to block sites specified by the user. There are already extentions like th
 A work in progress.
 
 ### Extra
-Made with HTML, CSS, and Javascript.
-[Palette Theme](https://coolors.co/344966-adf3ff-f6f3f6-af4667-cc8fa9-e9d7ea-f4dae0-ffdcd6)
+Made with HTML, SASS, Bootstrap, and Javascript.
+<!-- [Palette Theme](https://coolors.co/344966-adf3ff-f6f3f6-af4667-cc8fa9-e9d7ea-f4dae0-ffdcd6) -->

@@ -2,7 +2,7 @@
     "manifest_version": 3,
     
     "name": "Web Embargo",
-    "version": "1.0",
+    "version": "1.0.0",
     "description": "Chrome extension to blacklist specific websites.",
 
     "action": {
