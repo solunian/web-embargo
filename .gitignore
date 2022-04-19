@@ -5,3 +5,6 @@ node_modules
 styles
 *.css
 *.css.map
+
+# scratch files
+scratch
