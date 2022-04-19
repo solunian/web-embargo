@@ -1,1 +1,7 @@
+# npm libs
 node_modules
+
+# css from sass trans-compiling
+styles
+*.css
+*.css.map
