@@ -47,16 +47,18 @@ function addBlockedUrl(url) {
     urlListElement.innerText = url;
     blockedUrlUl.appendChild(urlListElement);
 
-  
-    if (typeof chrome.storage.sync.get("blocked_urls") == undefined) {
-        const blocked_urls = [url];
-        chrome.storage.sync.set({"blocked_urls": blocked_urls});
-    } else {
-        const blocked_urls = storageCache["blocked_urls"];
-        blocked_urls.push(url);
-        chrome.storage.sync.set({"blocked_urls": blocked_urls});
-
-    }
+    chrome.storage.sync.get("blocked_urls").then(val => {
+        if (typeof val == undefined) {
+            const blocked_urls = [url];
+            chrome.storage.sync.set({"blocked_urls": blocked_urls});
+            console.log("storage is undefined");
+        } else {
+            const blocked_urls = storageCache["blocked_urls"] ?? [];
+            blocked_urls.push(url);
+            chrome.storage.sync.set({"blocked_urls": blocked_urls});
+            console.log("storage is defined");
+        }
+    });
     
 
     chrome.storage.sync.get("blocked_urls").then(val => {
