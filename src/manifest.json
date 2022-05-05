@@ -7,10 +7,10 @@
 
     "action": {
         "default_title": "Web Embargo",
-        "default_popup": "popup.html"
+        "default_popup": "./popup.html"
     },
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "./background.js"
     },
     "permissions": [
         "storage",
